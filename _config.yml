@@ -4,7 +4,7 @@ email:       ajankit2304@gmail.com
 author:      Ankit Joshi
 description: "Enroute to GSOC'2018"
 baseurl:     "/Blog-GSOC18"
-url:         "https://github.com/MacBox7"
+url:         "https://MacBox7.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
