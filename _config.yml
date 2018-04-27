@@ -1,8 +1,8 @@
 # Site settings
-title:       GSOC'2018
+title:       GSoC'2018
 email:       ajankit2304@gmail.com
 author:      Ankit Joshi
-description: "Enroute to GSOC'2018"
+description: "Enroute to GSoC'2018"
 baseurl:     "/Blog-GSOC18"
 url:         "https://MacBox7.github.io"
 date_format: "%b %-d, %Y"
