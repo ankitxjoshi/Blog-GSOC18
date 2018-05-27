@@ -2,7 +2,7 @@
 layout:     post
 title:      GSoC'18 coala Init
 date:       2018-04-27
-summary:    The much awaited results of Google Summer Of Code is out now, and I have been selected                    to work with coala.
+summary:    The much awaited results of Google Summer Of Code are out
 categories: blog gsoc
 ---
 
@@ -24,7 +24,7 @@ coala has a set of official bears (plugins) for several languages, including pop
 
 <p class="heading">About my project</p>
 <p class="content">
-The idea, here, is to integrate <a class="hyperlink" href="https://github.com/PyCQA/pyflakes"> pyflakes-enhanced AST</a> into coala as a metabear which can then be used to develop various plugins. The second part of the project involves redesigning flake8 plugins flake8-future-import and flake8-builtins in such a way that they use pyflakes-enhanced AST over python AST. Finally, a wrapper is to be created which supplies a python AST to flake8 plugins so that they work as it is. 
+The idea, here, is to integrate <a class="hyperlink" href="https://github.com/PyCQA/pyflakes"> pyflakes-enhanced AST</a> into coala as a metabear which can then be used to develop various plugins. The second part of the project involves redesigning flake8 plugins flake8-future-import and flake8-builtins in such a way that they use pyflakes-enhanced AST over python AST. Finally, a wrapper is to be created which supplies a python AST to flake8 plugins so that they work as it is.
 </p>
 <p class="content">
 This would allow coala developers to utilise the full potential of enhanced AST rather than simply depending on python AST and so, a whole lot of rework to do the basic traversing and collection of important nodes gets saved. Pyflakes provides with a basic API that does the traversing. So, if a developer uses enhanced AST he just needs to work on the implementation of the new logic that their plugin provides and not about the fidelity of the basic node handlers.
